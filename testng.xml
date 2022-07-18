@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="All Test Suite" thread-count="5" parallel="classes">
     <test verbose="2" preserve-order="true" name="D:/User/masrinivasan/IdeaProjects/SeleniumGrid4">
         <classes>
             <class name="tests.One">
                 <methods><include name="testOne"/></methods>
             </class>
-            <class name="tests.Three">
-                <methods><include name="testOne"/></methods>
-            </class>
             <class name="tests.Two">
-                <methods><include name="testOne"/></methods>
+                <methods><include name="testTwo"/></methods>
+            </class>
+            <class name="tests.Three">
+                <methods><include name="testThree"/></methods>
             </class>
         </classes>
     </test>
