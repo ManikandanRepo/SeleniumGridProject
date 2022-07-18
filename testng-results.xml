@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[The Internet from chrome]]>
+    </line>
+    <line>
+      <![CDATA[The Internet from edge]]>
+    </line>
+    <line>
+      <![CDATA[The Internet from firefox]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-18T15:15:32 IST" name="All Test Suite" finished-at="2022-07-18T15:15:52 IST" duration-ms="19714">
+    <groups>
+    </groups>
+    <test started-at="2022-07-18T15:15:32 IST" name="D:/User/masrinivasan/IdeaProjects/SeleniumGrid4" finished-at="2022-07-18T15:15:52 IST" duration-ms="19714">
+      <class name="tests.One">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.One@1d082e88]" started-at="2022-07-18T15:15:32 IST" name="setUp" finished-at="2022-07-18T15:15:37 IST" duration-ms="4858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOne()[pri:0, instance:tests.One@1d082e88]" started-at="2022-07-18T15:15:37 IST" name="testOne" finished-at="2022-07-18T15:15:44 IST" duration-ms="7253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Internet from chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.One@1d082e88]" started-at="2022-07-18T15:15:44 IST" name="tearDown" finished-at="2022-07-18T15:15:45 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.One -->
+      <class name="tests.Three">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Three@229d10bd]" started-at="2022-07-18T15:15:32 IST" name="setUp" finished-at="2022-07-18T15:15:37 IST" duration-ms="5252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testThree()[pri:0, instance:tests.Three@229d10bd]" started-at="2022-07-18T15:15:37 IST" name="testThree" finished-at="2022-07-18T15:15:45 IST" duration-ms="7961" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Internet from edge]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Three@229d10bd]" started-at="2022-07-18T15:15:45 IST" name="tearDown" finished-at="2022-07-18T15:15:47 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Three -->
+      <class name="tests.Two">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Two@2ddc8ecb]" started-at="2022-07-18T15:15:32 IST" name="setUp" finished-at="2022-07-18T15:15:41 IST" duration-ms="8841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTwo()[pri:0, instance:tests.Two@2ddc8ecb]" started-at="2022-07-18T15:15:41 IST" name="testTwo" finished-at="2022-07-18T15:15:50 IST" duration-ms="9209" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Internet from firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Two@2ddc8ecb]" started-at="2022-07-18T15:15:50 IST" name="tearDown" finished-at="2022-07-18T15:15:52 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Two -->
+    </test> <!-- D:/User/masrinivasan/IdeaProjects/SeleniumGrid4 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

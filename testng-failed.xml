@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/User/masrinivasan/IdeaProjects/SeleniumGrid4(failed)">
+    <classes>
+      <class name="tests.Three">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testThree"/>
+        </methods>
+      </class> <!-- tests.Three -->
+      <class name="tests.One">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testOne"/>
+        </methods>
+      </class> <!-- tests.One -->
+      <class name="tests.Two">
+        <methods>
+          <include name="testTwo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.Two -->
+    </classes>
+  </test> <!-- D:/User/masrinivasan/IdeaProjects/SeleniumGrid4(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
